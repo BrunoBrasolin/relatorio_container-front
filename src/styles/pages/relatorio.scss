@@ -1,0 +1,29 @@
+.intro,
+.variaveis {
+	margin-top: 3rem;
+}
+
+.variaveis {
+	display: grid;
+	grid-template-columns: repeat(4, 24%);
+	gap: 1%;
+	align-items: center;
+
+	.adicionar {
+		display: flex;
+		align-items: center;
+		justify-content: center;
+		align-self: flex-end;
+		margin-bottom: 1rem;
+		padding: 10px 15px;
+		background: #eeeeee;
+		border: 1px solid #eeeeee;
+		border-radius: 6px;
+		font-weight: bold;
+		cursor: pointer;
+
+		img {
+			margin-right: 10px;
+		}
+	}
+}
